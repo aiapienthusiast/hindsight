@@ -803,6 +803,7 @@ class OpenAICompatibleLLM(LLMInterface):
             "volcano",
             "openrouter",
             "requesty",
+            "cheaperinference",
             "zai",
             "opencode-go",
             "atlas",
@@ -830,6 +831,8 @@ class OpenAICompatibleLLM(LLMInterface):
                 self.base_url = "https://openrouter.ai/api/v1"
             elif self.provider == "requesty":
                 self.base_url = "https://router.requesty.ai/v1"
+            elif self.provider == "cheaperinference":
+                self.base_url = "https://api.cheaperinference.com/v1"
             elif self.provider == "zai":
                 self.base_url = "https://api.z.ai/api/coding/paas/v4"
             elif self.provider == "opencode-go":
@@ -862,6 +865,7 @@ class OpenAICompatibleLLM(LLMInterface):
                 "deepseek",
                 "openrouter",
                 "requesty",
+                "cheaperinference",
                 "zai",
                 "opencode-go",
                 "atlas",
