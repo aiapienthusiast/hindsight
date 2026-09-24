@@ -38,6 +38,7 @@ Used for fact extraction, entity resolution, mental model consolidation, and ans
 - Volcano Engine
 - OpenRouter
 - Requesty
+- Cheaper Inference
 - OpenAI Codex
 - Claude Code
 - Cursor
@@ -123,6 +124,7 @@ Beyond basic generation, some providers support optional features that lower cos
 | Volcano Engine (`volcano`) | — | — |
 | OpenRouter (`openrouter`) | — | — |
 | Requesty (`requesty`) | — | — |
+| Cheaper Inference (`cheaperinference`) | — | — |
 | OpenAI Codex (`openai-codex`) | — | — |
 | Claude Code (`claude-code`) | — | — |
 | Cursor (`cursor`) | — | — |
@@ -192,6 +194,7 @@ Each provider has a recommended default model that's used when `HINDSIGHT_API_LL
 | `volcano` | `doubao-pro-32k` |
 | `openrouter` | `qwen/qwen3.5-9b` |
 | `requesty` | `openai/gpt-4o-mini` |
+| `cheaperinference` | `gpt-5.4-mini` |
 | `openai-codex` | `gpt-5.4-mini` |
 | `claude-code` | `claude-sonnet-4-5-20250929` |
 | `cursor` | `auto` |
